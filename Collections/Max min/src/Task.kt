@@ -7,4 +7,3 @@ fun getMostExpensiveProductBy(customer: Customer): Product? =
     customer.orders
         .flatMap{ it.products }
         .maxBy { it.price }
-

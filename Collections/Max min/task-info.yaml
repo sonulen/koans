@@ -15,7 +15,7 @@ files:
     status: Solved
     encrypted_possible_answer: customers.maxBy { it.orders.size }
   - offset: 349
-    length: 28
+    length: 27
     placeholder_text: TODO()
     initial_state:
       length: 6
