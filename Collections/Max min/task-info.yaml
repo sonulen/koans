@@ -4,25 +4,25 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 118
-    length: 34
+  - offset: 122
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 122
     initialized_from_dependency: false
-    selected: true
-    status: Solved
+    selected: false
+    status: Unchecked
     encrypted_possible_answer: customers.maxBy { it.orders.size }
-  - offset: 349
-    length: 27
+  - offset: 281
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 281
     initialized_from_dependency: false
-    selected: true
-    status: Solved
+    selected: false
+    status: Unchecked
     encrypted_possible_answer: |-
       customer.orders
                       .flatMap(Order::products)
@@ -149,5 +149,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 12 Aug 2021 19:33:36 UTC
+  time: Mon, 09 May 2022 18:09:42 UTC
 record: -1

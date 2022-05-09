@@ -5,34 +5,34 @@ files:
   visible: true
   placeholders:
   - offset: 116
-    length: 37
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 116
     initialized_from_dependency: false
-    selected: true
-    status: Solved
+    selected: false
+    status: Unchecked
     encrypted_possible_answer: customers.associateBy(Customer::name)
-  - offset: 262
-    length: 35
+  - offset: 231
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 231
     initialized_from_dependency: false
-    selected: true
-    status: Solved
+    selected: false
+    status: Unchecked
     encrypted_possible_answer: customers.associateWith(Customer::city)
-  - offset: 413
-    length: 42
+  - offset: 353
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 353
     initialized_from_dependency: false
-    selected: true
-    status: Solved
+    selected: false
+    status: Unchecked
     encrypted_possible_answer: customers.associate { it.name to it.city }
   text: |-
     // Build a map from the customer name to the customer
@@ -172,5 +172,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 12 Aug 2021 19:57:59 UTC
+  time: Mon, 09 May 2022 18:10:51 UTC
 record: -1

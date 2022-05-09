@@ -12,7 +12,7 @@ files:
       offset: 74
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: ': Nothing'
   text: |-
     import java.lang.IllegalArgumentException
@@ -56,7 +56,4 @@ files:
     }
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: Wed, 11 Aug 2021 17:34:32 UTC
 record: -1

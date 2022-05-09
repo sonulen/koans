@@ -5,14 +5,14 @@ files:
   visible: true
   placeholders:
   - offset: 133
-    length: 29
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 133
     initialized_from_dependency: false
-    selected: true
-    status: Solved
+    selected: false
+    status: Unchecked
     encrypted_possible_answer: customers.groupBy { it.city }
   text: |
     // Build a map that stores the customers living in a given city
@@ -126,5 +126,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 12 Aug 2021 19:45:20 UTC
+  time: Mon, 09 May 2022 18:10:12 UTC
 record: -1

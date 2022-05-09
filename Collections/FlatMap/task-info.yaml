@@ -5,24 +5,24 @@ files:
   visible: true
   placeholders:
   - offset: 113
-    length: 30
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 113
     initialized_from_dependency: false
-    selected: true
-    status: Solved
+    selected: false
+    status: Unchecked
     encrypted_possible_answer: orders.flatMap(Order::products)
-  - offset: 265
-    length: 55
+  - offset: 241
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 241
     initialized_from_dependency: false
-    selected: true
-    status: Solved
+    selected: false
+    status: Unchecked
     encrypted_possible_answer: customers.flatMap(Customer::getOrderedProducts).toSet()
   text: |
     // Return all products the given customer has ordered
@@ -146,5 +146,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Tue, 21 Sep 2021 20:35:35 UTC
+  time: Mon, 09 May 2022 18:11:34 UTC
 record: -1

@@ -5,28 +5,28 @@ files:
   visible: true
   placeholders:
   - offset: 120
-    length: 213
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 120
     initialized_from_dependency: false
-    selected: true
-    status: Solved
+    selected: false
+    status: Unchecked
     encrypted_possible_answer: |-
       val allProducts = customers.flatMap { it.getOrderedProducts() }.toSet()
           return customers.fold(allProducts, { orderedByAll, customer ->
               orderedByAll.intersect(customer.getOrderedProducts())
           })
-  - offset: 412
+  - offset: 189
     length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 189
     initialized_from_dependency: false
-    selected: true
-    status: Solved
+    selected: false
+    status: Unchecked
     encrypted_possible_answer: orders.flatMap(Order::products)
   text: |-
     // Return the set of products that were ordered by all customers
@@ -154,5 +154,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Tue, 21 Sep 2021 20:51:21 UTC
+  time: Mon, 09 May 2022 18:11:50 UTC
 record: -1

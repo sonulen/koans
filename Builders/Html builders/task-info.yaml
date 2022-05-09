@@ -182,5 +182,8 @@ files:
 - name: task.md.wb
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 09 May 2022 18:08:26 UTC
 record: -1

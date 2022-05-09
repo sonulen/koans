@@ -5,14 +5,14 @@ files:
   visible: true
   placeholders:
   - offset: 132
-    length: 81
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 132
     initialized_from_dependency: false
-    selected: true
-    status: Solved
+    selected: false
+    status: Unchecked
     encrypted_possible_answer: customer.orders.flatMap { it.products }.sumByDouble
       { it.price }
   text: |
@@ -133,5 +133,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 12 Aug 2021 19:40:13 UTC
+  time: Mon, 09 May 2022 18:09:57 UTC
 record: -1

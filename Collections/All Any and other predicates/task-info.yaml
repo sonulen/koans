@@ -4,45 +4,45 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 110
-    length: 34
+  - offset: 119
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 119
     initialized_from_dependency: false
-    selected: true
-    status: Solved
+    selected: false
+    status: Unchecked
     encrypted_possible_answer: customers.all { it.city == city }
-  - offset: 260
-    length: 34
+  - offset: 250
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 250
     initialized_from_dependency: false
     selected: false
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: customers.any { it.city == city }
-  - offset: 394
-    length: 36
+  - offset: 365
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 365
     initialized_from_dependency: false
     selected: false
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: customers.count { it.city == city }
-  - offset: 555
-    length: 35
+  - offset: 505
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 505
     initialized_from_dependency: false
-    selected: true
-    status: Solved
+    selected: false
+    status: Unchecked
     encrypted_possible_answer: customers.find { it.city == city }
   text: |
     // Return true if all customers are from a given city
@@ -183,5 +183,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 12 Aug 2021 19:06:57 UTC
+  time: Mon, 09 May 2022 18:09:33 UTC
 record: -1

@@ -5,34 +5,34 @@ files:
   visible: true
   placeholders:
   - offset: 137
-    length: 8
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 137
     initialized_from_dependency: false
-    selected: true
-    status: Solved
+    selected: false
+    status: Unchecked
     encrypted_possible_answer: s.length
-  - offset: 215
-    length: 11
+  - offset: 213
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 213
     initialized_from_dependency: false
-    selected: true
-    status: Solved
+    selected: false
+    status: Unchecked
     encrypted_possible_answer: group.size
-  - offset: 292
-    length: 32
+  - offset: 285
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 285
     initialized_from_dependency: false
     selected: false
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: group.size == maximumSizeOfGroup
   text: |
     fun doSomethingWithCollection(collection: Collection<String>): Collection<String>? {
@@ -82,5 +82,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Tue, 21 Sep 2021 21:02:23 UTC
+  time: Mon, 09 May 2022 18:12:08 UTC
 record: -1

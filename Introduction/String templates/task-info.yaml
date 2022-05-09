@@ -12,7 +12,7 @@ files:
       offset: 92
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: '"""\d{2} $month \d{4}"""'
   text: |
     val month = "(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)"
@@ -46,7 +46,4 @@ files:
     }
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: Wed, 11 Aug 2021 17:20:50 UTC
 record: -1

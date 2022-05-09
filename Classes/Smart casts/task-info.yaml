@@ -12,7 +12,7 @@ files:
       offset: 72
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: expr.value
   - offset: 105
     length: 34
@@ -22,7 +22,7 @@ files:
       offset: 101
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: eval(expr.left) + eval(expr.right)
   text: |
     fun eval(expr: Expr): Int =
@@ -60,7 +60,4 @@ files:
     }
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: Wed, 11 Aug 2021 18:27:39 UTC
 record: -1
